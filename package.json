@@ -1,5 +1,5 @@
 {
-  "name": "wipenodecache",
+  "name": "wipe-node-cache",
   "version": "1.0.0",
   "description": "Wipes node.js cache in a controled way.",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thlorenz/proxyquire.git"
+    "url": "https://stash.atlassian.com/scm/~akorzunov/wipenodecache.git"
   },
   "keywords": [
     "require",
