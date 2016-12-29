@@ -1,6 +1,6 @@
 {
   "name": "wipe-node-cache",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wipes node.js cache in a controled way.",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://stash.atlassian.com/scm/~akorzunov/wipenodecache.git"
+    "url": "https://github.com/theKashey/wipeNodeCache"
   },
   "keywords": [
     "require",
