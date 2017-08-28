@@ -9,9 +9,14 @@ Or just keep all modules fresh, for example for proxyquire.
 
 ```sh
 $ npm install --save wipe-node-cache
+$ npm install --save wipe-webpack-cache
 ```
 
 ## Usage
+This library requires some extra API from webpack to work:
+ - NamedModulesPlugin - to have names for files
+ - HotModuleReplacementPlugin - to have parents information
+---
 
 ```js
 // foo.js
