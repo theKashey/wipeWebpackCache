@@ -29,7 +29,9 @@ function wipeCache(stubs, resolver, waveCallback) {
     throw new Error("wipeWebpackCache: requires webpack environment. Use wipeNodeCacheInstead");
   }
 
-  if (Object.keys(__webpack_modules__)[0] == '0') {
+  if (Object.keys(__webpack_modules__)[0] === '0' &&
+      !__webpack_modules__['../wipeWebpackCache/src/index.js']
+  ) {
     var error = new Error("wipeWebpackCache: you have to provide modulesNames, please add NamedModulesPlugin to your webpack configuration");
     console.error(error.message);
     throw error;
