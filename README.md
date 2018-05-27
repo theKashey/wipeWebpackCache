@@ -7,6 +7,8 @@ Or just keep all modules fresh, for example for proxyquire.
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/theKashey/wipeWebpackCache.svg)](https://greenkeeper.io/)
+
 ```sh
 $ npm install --save wipe-node-cache
 $ npm install --save wipe-webpack-cache
