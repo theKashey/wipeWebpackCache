@@ -30,7 +30,7 @@ function wipeCache(stubs, resolver, waveCallback) {
   }
 
   if (Object.keys(__webpack_modules__)[0] === '0' &&
-      !__webpack_modules__['./node_modules/wipe-webpack-cache/src/index.js']
+      module.id.indexOf('wipe-webpack-cache') < 0
   ) {
     var error = new Error("wipeWebpackCache: you have to provide modulesNames, please add NamedModulesPlugin to your webpack configuration");
     console.error(error.message);
