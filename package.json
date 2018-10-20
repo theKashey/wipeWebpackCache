@@ -1,6 +1,6 @@
 {
   "name": "wipe-webpack-cache",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Wipes webpack cache in a controled way.",
   "main": "src/index.js",
   "scripts": {
