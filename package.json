@@ -1,10 +1,11 @@
 {
   "name": "wipe-webpack-cache",
-  "version": "1.0.3",
+  "version": "2.0.0",
   "description": "Wipes webpack cache in a controled way.",
   "main": "src/index.js",
   "scripts": {
-    "test": "node ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS"
+    "test": "node ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
+    "test:dev": "node ./node_modules/karma/bin/karma start --browsers PhantomJS"
   },
   "repository": {
     "type": "git",
@@ -37,7 +38,8 @@
     "should": "~3.3",
     "sinon": "~1.9",
     "webpack": "^3.5.5",
-    "webpack-dev-server": "^2.7.1"
+    "webpack-dev-server": "^2.7.1",
+    "wipe-node-cache": "^2.0.0"
   },
   "dependencies": {}
 }
