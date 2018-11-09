@@ -6,7 +6,8 @@
   "scripts": {
     "build": "BABEL_ENV=cjs babel src -d lib",
     "test": "node ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
-    "test:dev": "node ./node_modules/karma/bin/karma start --browsers PhantomJS"
+    "test:dev": "node ./node_modules/karma/bin/karma start --browsers PhantomJS",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
