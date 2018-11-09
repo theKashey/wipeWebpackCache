@@ -1,11 +1,13 @@
 {
   "name": "wipe-webpack-cache",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Wipes webpack cache in a controled way.",
-  "main": "src/index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "BABEL_ENV=cjs babel src -d lib",
     "test": "node ./node_modules/karma/bin/karma start --single-run --browsers PhantomJS",
-    "test:dev": "node ./node_modules/karma/bin/karma start --browsers PhantomJS"
+    "test:dev": "node ./node_modules/karma/bin/karma start --browsers PhantomJS",
+    "prepublish": "npm run build"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,9 @@
   "author": "Anton Korzunov",
   "license": "MIT",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
     "bundle-loader": "^0.5.2",
     "chai": "^3.5.0",
     "karma": "^1.7.0",
