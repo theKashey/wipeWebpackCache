@@ -46,6 +46,6 @@
     "webpack-dev-server": "^2.7.1"
   },
   "dependencies": {
-    "wipe-node-cache": "^2.0.0"
+    "wipe-node-cache": "^2.1.0"
   }
 }

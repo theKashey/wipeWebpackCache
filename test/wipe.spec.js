@@ -3,7 +3,7 @@
 'use strict';
 
 var assert = require('assert');
-var wipe = require('../src/index.js');
+var wipe = require('../lib/index.js');
 
 var stubs = {
   'samples/bar': {
